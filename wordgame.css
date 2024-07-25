@@ -1,0 +1,25 @@
+body {
+    background-color: aqua;
+    text-align:center;
+}
+
+.letter {
+    border: 2px solid black;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+    align-content: center;
+    background-color: gray;
+}
+
+.letter.correct {
+    background-color: greenyellow;
+}
+
+.letter.kindofcorrect{
+    background-color:rgb(255, 255, 78);
+}
+
