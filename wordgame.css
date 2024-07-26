@@ -1,5 +1,22 @@
 body {
-    background-color: aqua;
+    background-color: #89aaa7;
+    text-align:center;
+    font-family: "Poppins";
+    color:#36323e;
+}
+
+button{
+    background-color:#609726;
+    border:#558521 inset 4px;
+    transition:0.2s;
+}
+
+button:hover{
+    background-color:#6ca82c;
+    border:#304b12 inset 2px;
+}
+
+input{
     text-align:center;
 }
 
@@ -22,4 +39,3 @@ body {
 .letter.kindofcorrect{
     background-color:rgb(255, 255, 78);
 }
-
